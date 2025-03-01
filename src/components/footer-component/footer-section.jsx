@@ -9,20 +9,22 @@ export function FooterSection() {
                             <div className="col-lg-4 col-md-6 col-12">
 
                                 <div className="single-footer f-about">
-                                    <div className="logo">
-                                        <a href="index.html">
-                                            <img src="/images/logo/white-logo.svg" alt="#" />
-                                        </a>
+                                    <div className="hero-content">
+                                        <h2 className="text-white">
+                                            Website Developement Agency
+                                        </h2>
                                     </div>
-                                    <p>Making the world a better place through constructing elegant hierarchies.</p>
+                                    <p>Build a strong online presence with expert web solutions.
+                                        Invest in smart technology and grow your business in real time.
+
+                                    </p>
                                     <h4 className="social-title">Follow Us On:</h4>
                                     <ul className="social">
-                                        <li><a href="javascript:void(0)"><i className="lni lni-facebook-filled"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i className="lni lni-instagram"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i className="lni lni-twitter-original"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i className="lni lni-linkedin-original"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i className="lni lni-pinterest"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i className="lni lni-youtube"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/rajendra-kumar-kushwaha-8584a8271/"><i className="bi bi-linkedin"></i></a></li>
+                                        <li><a href="https://www.instagram.com/rajendrakushwaha1732/"><i className="bi bi-instagram"></i></a></li>
+                                        <li><a href="https://github.com/RajendraKumarKushwaha/"><i className="bi bi-github"></i></a></li>
+                                        <li><a href="mailto:rajendra.k619@gmail.com"><i className="bi bi-envelope"></i></a></li>
+                                      
                                     </ul>
                                 </div>
 
@@ -30,12 +32,12 @@ export function FooterSection() {
                             <div className="col-lg-2 col-md-6 col-12">
 
                                 <div className="single-footer f-link">
-                                    <h3>Solutions</h3>
+                                    <h3>Company</h3>
                                     <ul>
-                                        <li><a href="javascript:void(0)">Marketing</a></li>
-                                        <li><a href="javascript:void(0)">Analytics</a></li>
-                                        <li><a href="javascript:void(0)">Commerce</a></li>
-                                        <li><a href="javascript:void(0)">Insights</a></li>
+                                        <li><a className="text-decoration-none" href="#">Home</a></li>
+                                        <li><a className="text-decoration-none" href="#">About</a></li>
+                                        <li><a className="text-decoration-none" href="#">Projects</a></li>
+                                        <li><a className="text-decoration-none" href="#">Contact Us</a></li>
                                     </ul>
                                 </div>
 
@@ -43,12 +45,13 @@ export function FooterSection() {
                             <div className="col-lg-2 col-md-6 col-12">
 
                                 <div className="single-footer f-link">
-                                    <h3>Support</h3>
+                                    <h3>Our Services</h3>
                                     <ul>
-                                        <li><a href="javascript:void(0)">Pricing</a></li>
-                                        <li><a href="javascript:void(0)">Documentation</a></li>
-                                        <li><a href="javascript:void(0)">Guides</a></li>
-                                        <li><a href="javascript:void(0)">API Status</a></li>
+                                        <li><a className="text-decoration-none" href="#">Website Developement</a></li>
+                                        <li><a className="text-decoration-none" href="#">Digital Marketing</a></li>
+                                        <li><a className="text-decoration-none" href="#">Web Services</a></li>
+                                        <li><a className="text-decoration-none" href="#">Domain Name & Hosting</a></li>
+                                        <li><a className="text-decoration-none" href="#">Search Engine Optimization</a></li>
                                     </ul>
                                 </div>
 
@@ -78,11 +81,11 @@ export function FooterSection() {
                     <div className="inner-content">
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-12">
-                                <p className="copyright-text">© 2023 Craft - All Rights Reserved</p>
+                                <p className="copyright-text">© 2025- All Rights Reserved</p>
                             </div>
                             <div className="col-lg-6 col-md-6 col-12">
-                                <p className="copyright-owner">Designed and Developed by <a href="https://graygrids.com/"
-                                    rel="nofollow" target="_blank">GrayGrids</a></p>
+                                <p className="copyright-owner">Designed and Developed by <a href="#"
+                                    rel="nofollow" target="_blank">Rajendra</a></p>
                             </div>
                         </div>
                     </div>

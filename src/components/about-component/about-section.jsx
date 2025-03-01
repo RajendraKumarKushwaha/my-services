@@ -11,30 +11,29 @@ export function AboutSection(){
                 <div className="col-lg-6 col-12">
                     <div className="content wow animate__animated animate__fadeInRight" data-wow-delay=".4s">
                         <h4>DECENTRALISED ECONOMY</h4>
-                        <h2>We’ve built a platform to buy and sell shares.</h2>
-                        <p>Spend real fights effective anything extra by leading. Mouthwatering leading how real formula
-                            also locked-in have can mountain thought. Jumbo plus shine sale.</p>
+                        <h2>From Ideas to Impact – We Make It Happen!</h2>
+                        <p>We turn your vision into reality with stunning websites, powerful branding, and smart digital solutions. Whether you're starting fresh or scaling up, we help you grow and succeed online!</p>
                         <div className="list">
                             <div className="single-list">
                                 <div className="list-icon">
                                     <i className="lni lni-checkmark"></i>
                                 </div>
+                                <h4>Website Development</h4>
+                                <p>Build a fast, modern, and user-friendly website that helps your business grow online.</p>
+                            </div>
+                            <div className="single-list">
+                                <div className="list-icon">
+                                    <i className="lni lni-checkmark"></i>
+                                </div>
                                 <h4>Digital Marketing</h4>
-                                <p>Quis autem vel eum reprehenderit</p>
+                                <p>Boost your brand’s reach, attract more customers, and grow your business with smart digital marketing strategies.</p>
                             </div>
                             <div className="single-list">
                                 <div className="list-icon">
                                     <i className="lni lni-checkmark"></i>
                                 </div>
-                                <h4>Graphics Desing</h4>
-                                <p>Quis autem vel eum reprehenderit</p>
-                            </div>
-                            <div className="single-list">
-                                <div className="list-icon">
-                                    <i className="lni lni-checkmark"></i>
-                                </div>
-                                <h4>Consulting Service</h4>
-                                <p>Quis autem vel eum reprehenderit</p>
+                                <h4>SEO</h4>
+                                <p>Improve your website’s ranking, get more traffic, and grow your business with effective SEO strategies.</p>
                             </div>
                         </div>
                     </div>
