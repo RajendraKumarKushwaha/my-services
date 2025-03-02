@@ -91,7 +91,7 @@ export function HeaderSection() {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link className="text-decoration-none" to="/contact">Contact</Link>
+                                            <Link className="text-decoration-none" to="/contact-us">Contact</Link>
                                         </li>
                                     </ul>
                                 </div>

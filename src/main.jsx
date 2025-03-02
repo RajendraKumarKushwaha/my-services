@@ -18,6 +18,8 @@ import "tiny-slider/dist/tiny-slider.js";
 import "glightbox/dist/js/glightbox.js";
 import WOW from "wow.js";
 
+
+
 // Initialize WOW.js
 new WOW().init();
 

@@ -1,33 +1,36 @@
 
 
+import { Route, Routes } from "react-router-dom";
 import { AboutSection } from "./components/about-component/about-section";
 import { FooterSection } from "./components/footer-component/footer-section";
 import { HeaderSection } from "./components/header-component/header-section";
 import { HeroSection } from "./components/hero-component/hero-section";
+import { Preloader } from "./components/preloader/preloader";
 import { ServiceSection } from "./components/service-component/service-section";
-
-// import WOW from "wow.js";
-// import { tns } from "tiny-slider/src/tiny-slider";
-// import GLightbox from "glightbox";
-// import Isotope from "isotope-layout";
-// import imagesLoaded from "imagesloaded";
-// import { useEffect } from "react";
-
+import { ContactSection } from "./components/contact-component/contact-section";
 
 function App() {
- 
+
 
   return (
+    <>
+      <div>
+        <Preloader />
+        <HeaderSection />
+      </div>
 
-    <div>
-
-        <HeaderSection/>
-        <HeroSection/>
-        <ServiceSection/>
-        <AboutSection/>
-        <FooterSection/>
-
-    </div>
+      <div>
+        <Routes>
+          <Route path="/" element={ <HeroSection />}/>
+          <Route path="/" element={ <ServiceSection />}/>
+          <Route path="/" element={  <AboutSection />}/>
+          <Route path="/contact-us" element={<ContactSection/>}/>
+        </Routes>
+      </div>
+      <div>
+        <FooterSection />
+      </div>
+    </>
 
 
 
