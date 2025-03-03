@@ -64,7 +64,7 @@ export function HeaderSection() {
                                         </li>
 
                                         {/* Pages Dropdown */}
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a href="#" className={` text-decoration-none dd-menu ${isPagesOpen ? "" : "collapsed"}`} onClick={() => setIsPagesOpen(!isPagesOpen)} aria-expanded={isPagesOpen}>
                                                 Pages
                                             </a>
@@ -77,10 +77,10 @@ export function HeaderSection() {
                                                 <li className="nav-item"><Link className="text-decoration-none" to="/mail-success">Mail Success</Link></li>
                                                 <li className="nav-item"><Link className="text-decoration-none" to="/404">404 Error</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
 
                                         {/* Blog Dropdown */}
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a href="#" className={`text-decoration-none dd-menu ${isBlogOpen ? "" : "collapsed"}`} onClick={() => setIsBlogOpen(!isBlogOpen)} aria-expanded={isBlogOpen}>
                                                 Blog
                                             </a>
@@ -88,8 +88,13 @@ export function HeaderSection() {
                                                 <li className="nav-item"><Link className="text-decoration-none" to="/blog-grid">Blog Grid</Link></li>
                                                 <li className="nav-item"><Link className="text-decoration-none" to="/blog-single">Blog Single</Link></li>
                                             </ul>
+                                        </li> */}
+                                        <li className="nav-item">
+                                            <Link className="text-decoration-none" to="/services">Services</Link>
                                         </li>
-
+                                        <li className="nav-item">
+                                            <Link className="text-decoration-none" to="/price">Our Price</Link>
+                                        </li>
                                         <li className="nav-item">
                                             <Link className="text-decoration-none" to="/contact-us">Contact</Link>
                                         </li>
