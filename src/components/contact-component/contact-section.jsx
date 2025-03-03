@@ -47,7 +47,7 @@ export function ContactSection() {
 
                         <div>
                             <h5>Call us</h5>
-                            <p><a className="text-decoration-none text-black" href="tel:9179644717"> +9179644717</a></p>
+                            <p><a className="text-decoration-none text-black" href="tel:9179644717"> +919179644717</a></p>
                         </div>
 
                         <div>
