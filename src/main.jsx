@@ -7,6 +7,8 @@ import App from "./App.jsx";
 // Importing CSS
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "lineicons/dist/lineicons.css";
 import "animate.css";
 import "tiny-slider/dist/tiny-slider.css";

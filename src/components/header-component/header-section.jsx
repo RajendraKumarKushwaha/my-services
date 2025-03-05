@@ -1,31 +1,30 @@
-import {  useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
-export function HeaderSection() {
+import PropTypes from "prop-types";
+export function HeaderSection({ setIsOpen }) {
     const [isNavOpen, setIsNavOpen] = useState(false);
-    const [isPagesOpen, setIsPagesOpen] = useState(false);
-    const [isBlogOpen, setIsBlogOpen] = useState(false);
+
     const [isSticky, setIsSticky] = useState(false);
     const [textColor, setTextColor] = useState("white");
 
     useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY > 0.5) {
-            setTextColor("black")
-          setIsSticky(true);
-        } else {
-          setIsSticky(false);
-          setTextColor("white")
-        }
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
+        const handleScroll = () => {
+            if (window.scrollY > 0.5) {
+                setTextColor("black")
+                setIsSticky(true);
+            } else {
+                setIsSticky(false);
+                setTextColor("white")
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
     }, []);
-  
+
     return (
         <header className={`header navbar-area ${isSticky ? "sticky" : ""}`}>
             <div className="container">
@@ -41,11 +40,11 @@ export function HeaderSection() {
                                 </Link>
 
                                 {/* Mobile Menu Toggle */}
-                                <button 
-                                    className="navbar-toggler mobile-menu-btn" 
-                                    type="button" 
+                                <button
+                                    className="navbar-toggler mobile-menu-btn"
+                                    type="button"
                                     onClick={() => setIsNavOpen(!isNavOpen)}
-                                    aria-expanded={isNavOpen} 
+                                    aria-expanded={isNavOpen}
                                     aria-label="Toggle navigation"
                                 >
                                     <span className="toggler-icon"></span>
@@ -98,13 +97,25 @@ export function HeaderSection() {
                                         <li className="nav-item">
                                             <Link className="text-decoration-none" to="/contact-us">Contact</Link>
                                         </li>
+                                        <li className="nav-item">
+                                            <Link className="text-decoration-none" to="/client">Client</Link>
+                                        </li>
                                     </ul>
                                 </div>
 
                                 {/* Get Started Button */}
-                                <div className="button">
-                                    <Link to="/signup" className="btn">Get started</Link>
-                                </div>
+                                {/* <div className="button">
+                                    <Link to="/" className="btn">Get started</Link>
+                                </div> */}
+                                <button
+                                    type="button"
+                                    onClick={() => setIsOpen(true)}
+                                    className="btn btn-primary"
+                                    aria-label="Request a quote"
+                                >
+                                    Request a Quote
+                                </button>
+
                             </nav>
                         </div>
                     </div>
@@ -113,3 +124,12 @@ export function HeaderSection() {
         </header>
     );
 }
+
+HeaderSection.propTypes = {
+    setIsOpen: PropTypes.func.isRequired, // Ensures setIsOpen is a function and required
+};
+
+
+HeaderSection.defaultProps = {
+    setIsOpen: () => { }, // Default to an empty function if no prop is provided
+};

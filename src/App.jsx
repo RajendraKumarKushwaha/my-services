@@ -9,6 +9,8 @@ import { ContactSection } from "./components/contact-component/contact-section";
 import { PriceSection } from "./components/price-component/price-section";
 import { AboutUs } from "./components/about-component/about-us";
 import { Service } from "./components/service-component/services";
+import { ClientSection } from "./components/client-component/client-section";
+import { useEffect, useState } from "react";
 
 function HomePage() {
   return (
@@ -22,10 +24,16 @@ function HomePage() {
 }
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+
+  useEffect(() => {
+    
+}, [isOpen]);  
   return (
     <>
       <Preloader />
-      <HeaderSection />
+      <HeaderSection setIsOpen={setIsOpen} />
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -33,6 +41,7 @@ function App() {
         <Route path="/contact-us" element={<ContactSection />} />
         <Route path="/price" element={<PriceSection />} />
         <Route path="/services" element={<Service />} />
+        <Route path="/client" element={<ClientSection />} />
       </Routes>
 
       <FooterSection />

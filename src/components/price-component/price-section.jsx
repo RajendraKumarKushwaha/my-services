@@ -4,15 +4,15 @@ export function PriceSection() {
     return (
         <section>
             <div>
-                <CommonPage title="Pricing" para="Great ideas start with a conversation. Reach out, and let’s chat!" />
+                <CommonPage title="Affordable Pricing Plans" para="Choose the best plan that suits your business needs." />
             </div>
             <div className="section">
                 <div className="container">
                     <div className="row justify-content-center">
 
                         <div className="col-lg-8 text-center">
-                            <h2 className="fw-bold">Affordable Pricing Plans</h2>
-                            <p className="text-muted">Choose the best plan that suits your business needs.</p>
+                            <h2 className="fw-bold">Flexible Plans for Every Business</h2>
+                            <p className="text-muted">Great ideas start with a conversation. Reach out, and let’s chat!" </p>
                         </div>
                     </div>
 
@@ -54,9 +54,9 @@ export function PriceSection() {
                             <div className="card border-0 shadow text-center p-4">
                                 <h4 className="fw-bold">Premium</h4>
                                 <p className="text-muted">For established businesses</p>
-                                <h3 className="fw-bold">$599<span className="text-muted fs-6">/one-time</span></h3>
+                                <h3 className="fw-bold">Custom Price<span className="text-muted fs-6">/one-time</span></h3>
                                 <ul className="list-unstyled my-3">
-                                    <li>✔ Unlimited Pages</li>
+                                    <li>✔ Custom Pages</li>
                                     <li>✔ Advanced SEO & Speed Optimization</li>
                                     <li>✔ E-commerce Features</li>
                                     <li>✔ Custom Integrations</li>
