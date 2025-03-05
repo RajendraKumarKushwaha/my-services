@@ -22,7 +22,7 @@ export function PriceSection() {
                             <div className="card border-0 shadow text-center p-4">
                                 <h4 className="fw-bold">Basic</h4>
                                 <p className="text-muted">For small businesses</p>
-                                <h3 className="fw-bold">Rs. 500<span className="text-muted fs-6">/one-time</span></h3>
+                                <h3 className="fw-bold">Rs. 3999<span className="text-muted fs-6">/one-time</span></h3>
                                 <ul className="list-unstyled my-3">
                                     <li>✔ 1 Page Website</li>
                                     <li>✔ Mobile Responsive</li>
@@ -38,7 +38,7 @@ export function PriceSection() {
                             <div className="card border-0 shadow-lg text-center p-4">
                                 <h4 className="fw-bold">Standard</h4>
                                 <p className="text-muted">For growing businesses</p>
-                                <h3 className="fw-bold">Rs. 5000<span className="text-muted fs-6">/one-time</span></h3>
+                                <h3 className="fw-bold">Rs. 7999<span className="text-muted fs-6">/one-time</span></h3>
                                 <ul className="list-unstyled my-3">
                                     <li>✔ Up to 5 Pages</li>
                                     <li>✔ Mobile Responsive</li>
