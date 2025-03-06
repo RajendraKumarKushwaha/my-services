@@ -35,7 +35,7 @@ export function HeaderSection({ setIsOpen }) {
                             <nav className="navbar navbar-expand-lg">
                                 {/* Logo */}
                                 <Link className="navbar-brand" to="/">
-                                    <img src="/images/logo1.png" alt="Logo" style={{height:"100px", width:"100px"}} />
+                                    <img src="/images/logo1.png" alt="Logo"  />
                                     {/* <h2 style={{ color: textColor }}>Rajendra</h2> */}
                                 </Link>
 
@@ -104,17 +104,17 @@ export function HeaderSection({ setIsOpen }) {
                                 </div>
 
                                 {/* Get Started Button */}
-                                {/* <div className="button">
+                                <div className="button">
                                     <Link to="/" className="btn">Get started</Link>
-                                </div> */}
-                                <button
+                                </div>
+                                {/* <button
                                     type="button"
                                     onClick={() => setIsOpen(true)}
                                     className="btn btn-primary"
                                     aria-label="Request a quote"
                                 >
                                     Request a Quote
-                                </button>
+                                </button> */}
 
                             </nav>
                         </div>
