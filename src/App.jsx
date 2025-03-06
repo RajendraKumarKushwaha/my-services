@@ -11,6 +11,7 @@ import { AboutUs } from "./components/about-component/about-us";
 import { Service } from "./components/service-component/services";
 import { ClientSection } from "./components/client-component/client-section";
 import { useEffect, useState } from "react";
+import { ChatButton } from "./components/chat-button/chatbutton";
 
 function HomePage() {
   return (
@@ -34,6 +35,7 @@ function App() {
     <>
       <Preloader />
       <HeaderSection setIsOpen={setIsOpen} />
+      <ChatButton/>
 
       <Routes>
         <Route path="/" element={<HomePage />} />
