@@ -35,8 +35,8 @@ export function HeaderSection({ setIsOpen }) {
                             <nav className="navbar navbar-expand-lg">
                                 {/* Logo */}
                                 <Link className="navbar-brand" to="/">
-                                    {/* <img src="/images/logo/white-logo.svg" alt="Logo" /> */}
-                                    <h2 style={{ color: textColor }}>Rajendra</h2>
+                                    <img src="/images/logo1.png" alt="Logo" style={{height:"100px", width:"100px"}} />
+                                    {/* <h2 style={{ color: textColor }}>Rajendra</h2> */}
                                 </Link>
 
                                 {/* Mobile Menu Toggle */}
